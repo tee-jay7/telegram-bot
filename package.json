@@ -1,0 +1,25 @@
+{
+  "name": "gcp_cloud_functions",
+  "version": "1.0.0",
+  "description": "Experts session ft GCP Cloud Functions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec npm start",
+    "start": "functions-framework --target=\"teleBot\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GCP",
+    "DEMO"
+  ],
+  "author": "teejay_7",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
