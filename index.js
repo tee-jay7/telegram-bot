@@ -37,7 +37,7 @@ functions.http('teleBot', (request, response)=>{
     init()
 
     const {chat, text}=request.body.message
-    // Reply with the same text sent 
+    // Reply sender with the same text that was sent 
     replyMsg(chat.id, text)
     //Handling upload of audio to telegram and processing it with text to speech API
     // TODO
